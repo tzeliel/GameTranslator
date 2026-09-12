@@ -1,0 +1,9 @@
+# Núcleo (recomendado)
+argostranslate>=1.9      # traducción automática offline (sin API key)
+langdetect>=1.0.9        # autodetección del idioma de origen
+chardet>=5.0             # detección de codificación de los archivos del juego
+tqdm>=4.0                # barra de progreso (opcional, hay fallback sin ella)
+
+# tkinter (selector de carpeta gráfico) viene con Python en Windows/macOS.
+# En Linux puede requerir instalar el paquete del sistema, ej.:
+#   sudo apt install python3-tk
